@@ -1,0 +1,33 @@
+{
+  "name": "@wrenchcoach/socket-and-plug",
+  "filename": "socket-and-plug",
+  "libraryName": "SocketAndPlug",
+  "version": "1.0.1",
+  "main": "SocketAndPlug.js",
+  "license": "MIT",
+  "scripts": {
+    "build:dev": "webpack --watch --config webpack-dev.config.js",
+    "build": "webpack --config webpack-prod.config.js",
+    "dist": "webpack --config webpack-prod.config.js && yarn publish --access=public",
+    "docs": "jsdoc -c .jsdoc.json"
+  },
+  "dependencies": {
+    "dom-to-image-more": "^2.8.0"
+  },
+  "devDependencies": {
+    "chai": "3.4.1",
+    "documentation": "^12.1.1",
+    "eslint": "^6.5.1",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "ink-docstrap": "^1.3.2",
+    "jsdoc": "^3.6.3",
+    "jsdoc-inheritance-diagram": "^1.2.3",
+    "prettier": "^1.18.2",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9",
+    "worker-loader": "^2.0.0",
+    "yargs": "3.32.0"
+  }
+}

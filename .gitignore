@@ -1,0 +1,7 @@
+/node_modules
+dist/
+Tests/Assets/
+SteamServer/
+package-lock.json
+*.log
+*.lock
