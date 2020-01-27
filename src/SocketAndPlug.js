@@ -344,5 +344,6 @@ class PlugItem extends ZeaEngine.Group {
 
 export {
   SocketItem,
-  PlugItem
+  PlugItem,
+  PlugMode
 }
