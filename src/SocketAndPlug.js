@@ -341,3 +341,8 @@ class PlugItem extends ZeaEngine.Group {
       item.holdProxy = null;
   }
 }
+
+export {
+  SocketItem,
+  PlugItem
+}
