@@ -2,7 +2,7 @@
   "name": "@wrenchcoach/socket-and-plug",
   "filename": "socket-and-plug",
   "libraryName": "SocketAndPlug",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "SocketAndPlug.js",
   "license": "MIT",
   "scripts": {
