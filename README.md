@@ -1,8 +1,8 @@
-# Wrenchcoach State Machine
+# Wrenchcoach Socket and Plug
 
+Components to setup assembly stages.
+Sockets and Plug pairs are associated with geometry and then separated spatially. The user must correctly realign and position the each plug to gennect iwth a compatible socket to complete the training. 
 
-[![npm](https://img.shields.io/npm/v/@zeainc/zea-engine?style=flat-square)](https://www.npmjs.com/package/@zeainc/zea-engine)
-[![Code style: Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 ## Docs
 
@@ -41,7 +41,5 @@
 
 ## Publishing a new build
 
-1. install yarn. 
-2. build production. 
-3. `yarn publish`
+1. `yarn dist`
 
